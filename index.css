@@ -9,6 +9,7 @@
     height: 100vh;
     margin-left: 20%;
 }
+
 header{
     display: flex;
     justify-content: space-between;
@@ -18,7 +19,14 @@ header{
     background-color: gray;
     color: white;
     padding: 10px 30px;
-    
+}
+
+header > h1, header > p{
+    padding: 3px;
+}
+
+header > p{
+    margin-left: 3px%;
 }
 
 nav {
@@ -85,14 +93,14 @@ section > ul > li {
 }
 
 section > ul >li:hover {
-    background-color: coral;
+    background-color: rgb(65, 57, 57);
     color:white;
 }
 p {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    /* padding: 10px; */
     background-color: white;
     color: gray;
     border-radius: 10px;
