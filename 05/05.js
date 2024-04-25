@@ -17,9 +17,10 @@ document.addEventListener("DOMContentLoaded",()=>{
     let n;
     let flag = false;
 
+    e.preventDefault();2
 
     bt.addEventListener("click", ()=>{
-        e.preventDefault();
+        
         //랜덤수 생성 : flag가 ture일때만 생성
         if(!flag){
             flag = true
