@@ -1,0 +1,20 @@
+.div7, .div8{
+    background-color: white;
+    border: none;
+    margin: 10px 20px;
+}
+
+.div7{
+    width: 50%;
+}
+
+
+.bt7 {
+    width: 100%;
+}
+
+#txt1 , #txt2{
+    width: 100%;
+    text-align: center;
+    font-size: large;
+}
