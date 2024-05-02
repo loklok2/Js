@@ -1,54 +1,37 @@
-#btDiv7, #btDiv7 > section {
+#btDiv8, #btDiv8 > section, form {
     display: flex;
     justify-content: center;
     align-items: center;
+  
+    width: 100%;
   }
-#btDiv7, #btDiv7 > section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-form {
-    width: 100%;
-    margin: 0px;
-}
-  
-#btDiv7 {
-    width: 100%;
+  #btDiv8 {
     flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    height: 200px;
   
-}
+    height: 400px;
+    background-color: white;
+  }
   
-#btDiv7 > section {
-    width: 100%; 
+  .div81, .div82 {
     background-color: white;
-    /* border: 1px solid black; */
-}
-
-.bt7 {
-    background-color: bisque;
-    color: black;
-    width: 100%;
-}
-
-.div81,{
     border: none;
-    background-color: white;
-}
-
-.div82, .div83, .div84{
-    border: none;
-    background-color: white;
+  } 
+  .div81 {
     width: 100%;
-}
-
-#txt1{
+    margin: 10px 20px;
+  }
+  
+  .div82 {
+    width: 100%;  
+  }
+  
+  .bt81, .bt82, .bt83 {
     width: 100%;
+  }
+  
+  input{ 
+    width: 100%;
+    height: 40px;
     text-align: center;
     font-size: large;
-}
+  }
