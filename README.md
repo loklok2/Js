@@ -3,6 +3,6 @@
 + 04.23 :js 기본문법(돔)
 
 ## 참고사이트
-+ 리액트dev : https://react-ko.dev/
-+ 테일윈드: https://tailwindcss.com/
-+ vercel❤ : https://k7-react-nu.vercel.app/
++ mdn : https://developer.mozilla.org/ko/
++ w3school: https://www.w3schools.com/
++ vercel❤ : https://k7-js-gamma.vercel.app/
